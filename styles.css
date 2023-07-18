@@ -1,0 +1,68 @@
+#summary-container {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  max-height: 780px;
+  /*background: url("~assets/summary-background.jpeg");*/
+  background: grey;
+  text-align: center;
+}
+
+#image-container {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 82%;
+}
+
+#image-container img {
+  object-fit: none;
+  height: 18%;
+  width: 100%;
+  object-position: 28% 15%;
+}
+
+#owner-name {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 22px;
+  font-style: italic;
+}
+
+#course-name {
+  display: block;
+  margin-top: 45px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 45px;
+  line-height: 61px;
+}
+
+#course-description {
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+* {
+  font-family: "Segoe UI";
+}
+
+#trial-training-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 21%;
+  z-index: 1;
+  background: linear-gradient(0.6972222222222222turn,rgba(210,86,144,1) 0%,rgba(224,174,197,1) 100%);
+  color: rgba(255, 255, 255, 0.87);
+
+}
+
+#subscription-btn {
+  background: linear-gradient(0.6972222222222222turn,rgba(210,86,144,1) 0%,rgba(224,174,197,1) 100%);
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
