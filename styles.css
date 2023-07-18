@@ -14,7 +14,7 @@ ul {
   box-sizing: border-box;
 }
 
-#summary-container {
+#welcome-container {
   width: 100vw;
   /*height: calc(100vh - 56px);*/
   height: 100vh;
@@ -72,10 +72,11 @@ ul {
 
 #trial-training-btn {
   text-decoration: underline;
-  /*line-height: 2rem;*/
   width: 116px;
   font-size: 20px;
   font-weight: 400;
+  z-index: 100;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 #subscription-btn {
@@ -88,12 +89,6 @@ ul {
   z-index: 1;
   background: linear-gradient(0.6972222222222222turn,rgba(210,86,144,1) 0%,rgba(224,174,197,1) 100%);
   color: rgba(255, 255, 255, 0.87);
-  /*display: inline-block;*/
-  /*background: linear-gradient(0.6972222222222222turn,rgba(210,86,144,1) 0%,rgba(224,174,197,1) 100%);*/
-  /*color: rgba(255, 255, 255, 0.87);*/
-  /*margin-top: 20px;*/
-  /*padding: 8px;*/
-  /*border-radius: 5px;*/
 }
 
 #cost-info-container {
@@ -107,5 +102,32 @@ ul {
   border: 1px solid gray;
   padding: 8px;
   border-radius: 10px;
+  line-height: 26px;
 }
 
+.section-header {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.video-background {
+  margin-top: 20px;
+}
+
+.video-background iframe {
+  display: block;
+  width: 90vw;
+  aspect-ratio: 16/9;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.section-intro {
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: justify;
+  white-space: pre-wrap;
+}

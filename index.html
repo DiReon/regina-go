@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="summary-container">
+    <section id="welcome-container">
       <div id="owner-name">РЕГИНА ГОРБАЧЕВА</div>
       <div id="course-name">Система тренировок</div>
       <div id="course-description">
@@ -23,13 +23,22 @@
       </ul>
       <div id="cost-info-container">
         <span id="cost-info">месяц - 1690 р</span>
-        <a id="trial-training-btn">Пробная тренировка</a>
+        <a id="trial-training-btn" href="#trial-training-header">Пробная тренировка</a>
       </div>
       <a id="subscription-btn">ОПЛАТИТЬ ПОДПИСКУ</a>
 
       <div id="image-container">
         <img src="assets/welcome-photo.png" alt="Привет!" />
       </div>
-    </div>
+    </section>
+
+    <section>
+      <div id="trial-training-header" class="section-header">Выполните пробную тренировку</div>
+      <p class="section-intro">Убедитесь, что формат тренировки Вам подходит. Это одна из наиболее простых, базовых 20-ти минутных тренировок</p>
+      <div class="video-background">
+        <iframe src="https://www.youtube.com/embed/XHeT_AZxMtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+    </section>
   </body>
 </html>
