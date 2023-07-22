@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Regina-Go</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./subscription.css"/>
+</head>
+<body>
+    <h2>Чтобы оплатить подписку:</h2>
+    <ul id="subscribe-steps-list">
+        <li>
+            <div>1. Выберите тариф:</div>
+            <ul id="price-list">
+                <li>1 месяц - <strong>1690</strong> рублей</li>
+                <li>2 месяца - <strong>2690</strong> рублей <span class="discount">20% скидка</span></li>
+                <li>4 месяца - <strong>4990</strong> рублей <span class="discount">25% скидка</span></li>
+                <li>6 месяцев - <strong>6990</strong> рублей <span class="discount">35% скидка</span></li>
+                <li>12 месяцев - <strong>11200</strong> рублей <span class="discount">45% скидка</span></li>
+            </ul>
+        </li>
+        <li>
+            2. Оплатите переводом на Сбербанк:
+            <div>По номеру телефона: +7 (987) 252-52-60</div>
+            <div><div>По реквизитам: </div><button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modal">Посмотреть реквизиты</button></div>
+        </li>
+        <li>
+            <div>3. Заполните форму:</div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSenQWRjJnkcnV1UnGm9WThdkNv25IQcCAzF-bOtrOo9yaK7yg/viewform?embedded=true">Загрузка…</iframe>
+        </li>
+        <li>
+            <div>4. Переходите в приложение, регистрируйтесь и тренируйтесь:</div>
+            <a type="button" class="btn btn-primary mt-2" href="https://regina-go.web.app">regina-go.web.app</a>
+        </li>
+    </ul>
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Реквизиты</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Номер счета:
+                    БИК:
+                    КПП:
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
+</body>
+</html>

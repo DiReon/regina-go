@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: #eeedf2;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+}
+
+#subscribe-steps-list {
+    /*padding: 1rem;*/
+}
+
+#subscribe-steps-list > li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #e5e2e9;
+    border-radius: 10px;
+}
+#price-list {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+}
+
+#price-list li {
+    margin-bottom: 8px;
+}
+
+.discount {
+    background: #51fd51;
+}
+
+iframe {
+    height: 600px;
+    width: 100%;
+}
+
+iframe .teQAzf {
+    width: 100%;
+    max-width: 100%;
+}
