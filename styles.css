@@ -1,3 +1,8 @@
+html, body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -18,16 +23,20 @@ ul {
   width: 100vw;
   /*height: calc(100vh - 56px);*/
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   /*max-height: 780px;*/
   background: url("assets/bg_bggenerator_com.jpg");
+  background-size: auto 100%;
   text-align: center;
 }
 
 #product-content-summary {
+  position: relative;
   text-align: left;
   padding-left: 20px;
   color: rgba(0, 0, 0, 0.4);
   z-index: 100;
+  font-size: 14px;
 }
 
 
@@ -57,7 +66,7 @@ ul {
 
 #course-name {
   display: block;
-  margin-top: 45px;
+  margin-top: 20px;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
   font-size: 27px;
@@ -85,16 +94,17 @@ ul {
   display: inline-block;
   position: absolute;
   bottom: 15px;
-  left: 21%;
+  width: max-content;
   padding: 8px;
   border-radius: 5px;
+  transform: translateX(-50%);
   z-index: 1;
   background: linear-gradient(0.6972222222222222turn,rgba(210,86,144,1) 0%,rgba(224,174,197,1) 100%);
   color: rgba(255, 255, 255, 0.87);
 }
 
 #cost-info-container {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   padding: 0 13px;
@@ -129,8 +139,8 @@ ul {
 
 .section-intro {
   padding: 0.5rem 1rem;
-  font-size: 14px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 300;
   text-align: justify;
   white-space: pre-wrap;
 }
@@ -155,9 +165,8 @@ ul {
 }
 
 .platform-about-item {
-  font-style: italic;
-  font-weight: 300;
-  text-align: justify;
+  font-weight: 600;
+  text-align: center;
   padding: 0.5rem 1rem;
 }
 
