@@ -13,9 +13,7 @@
 <section id="welcome-container">
     <div id="owner-name">РЕГИНА ГОРБАЧЕВА</div>
     <div id="course-name">Система тренировок</div>
-    <div id="course-description">
-        для похудения, рельефа, здоровья и просто хорошего самочувствия
-    </div>
+    <p id="course-description"><mark>для похудения, рельефа, здоровья и просто хорошего самочувствия</mark></p>
     <div id="product-summary-and-contacts-container">
         <ul id="product-content-summary">
             <li>- плоский живот</li>
@@ -36,7 +34,9 @@
         <span id="cost-info">месяц - 1690 р</span>
         <a id="trial-training-btn" href="#trial-training-header">Пробная тренировка</a>
     </div>
-    <a id="subscription-btn" href="./subscription.html">ОПЛАТИТЬ ПОДПИСКУ</a>
+    <div id="subscription-btn-container">
+        <a id="subscription-btn" href="./subscription.html">ОПЛАТИТЬ ПОДПИСКУ</a>
+    </div>
 
     <div id="image-container">
         <img src="assets/welcome-photo-full-cut.png" alt="Привет!"/>
@@ -129,7 +129,7 @@
         </li>
         <li>
             <div class="platform-about-item">Дневник и календарь</div>
-            <ul style="display: flex">
+            <ul class="d-flex justify-content-between">
                 <li class="category-item">
                     <img src="assets/app-screenshots/journal.png">
                 </li>

@@ -90,7 +90,7 @@ ul {
 
 #course-description {
     position: relative;
-    padding: 16px;
+    padding: 0;
     text-align: center;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.7);
@@ -111,11 +111,17 @@ ul {
     color: rgba(0, 0, 0, 0.8);
 }
 
-#subscription-btn {
-    display: inline-block;
+#subscription-btn-container {
     position: absolute;
     bottom: 15px;
-    width: max-content;
+    width: 100%;
+    text-align: center;
+}
+
+#subscription-btn {
+    position: relative;
+    /*display: inline-block;*/
+    /*width: max-content;*/
     padding: 8px;
     border-radius: 5px;
     transform: translateX(-50%);
@@ -191,6 +197,7 @@ ul {
     font-weight: 600;
     text-align: center;
     padding: 0.5rem 1rem;
+    margin-top: 20px;
 }
 
 .category-item {
@@ -202,6 +209,7 @@ ul {
 
 .category-item img {
     width: 40vw;
+    max-width: 350px;
 }
 
 .category-item span {
@@ -269,9 +277,15 @@ ul {
     }
 
     #course-description {
-        display: flex;
-        width: 70%;
+        /*display: flex;*/
+        /*width: 70%;*/
+        margin-top: 20px;
         font-size: 25px;
+        text-align: start;
+    }
+
+    #course-description mark {
+        border-radius: 5px;
     }
     #product-summary-and-contacts-container {
         display: flex;
@@ -288,6 +302,7 @@ ul {
         align-items: start;
         flex-direction: column;
         gap: 25px;
+        padding-left: 0;
     }
 
     #trial-training-btn {
@@ -299,9 +314,12 @@ ul {
         font-size: 36px;
     }
 
-    #subscription-btn {
-        left: 25%;
+    #subscription-btn-container {
+        text-align: start;
         bottom: 50px;
+    }
+
+    #subscription-btn {
         font-size: 25px;
     }
 
@@ -310,7 +328,25 @@ ul {
     }
 
     .section-text, .section-intro {
-        font-size: 20px;
+        font-size: 25px;
     }
 
+    .platform-about-item {
+        font-size: 25px;
     }
+
+    .category-item span {
+        font-size: 25px;
+        line-height: 50px;
+        margin-left: 25px;
+    }
+
+    #subscription-target {
+        overflow-x: visible !important;
+    }
+}
+
+mark {
+    background-color: white;
+}
+
