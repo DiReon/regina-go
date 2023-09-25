@@ -5,21 +5,38 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
     <title>Regina-Go</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./styles.css"/>
     <!-- Facebook Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window,document,'script',
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '749702260286604');
         fbq('track', 'PageView');
@@ -38,7 +55,9 @@
 <section id="welcome-container">
     <div id="owner-name">РЕГИНА ГОРБАЧЕВА</div>
     <div id="course-name">Система тренировок</div>
-    <p id="course-description"><mark>для похудения, рельефа, здоровья и просто хорошего самочувствия</mark></p>
+    <p id="course-description">
+        <mark>для похудения, рельефа, здоровья и просто хорошего самочувствия</mark>
+    </p>
     <div id="product-summary-and-contacts-container">
         <ul id="product-content-summary">
             <li>- плоский живот</li>
@@ -56,9 +75,15 @@
         </div>
     </div>
     <div id="cost-info-container">
-        <span id="cost-info">месяц - 1990 р</span>
+        <div id="rates-info">
+            <div id="one-month-rate">месяц - 1990 р</div>
+            <div id="other-rates">
+                <a href="subscription.html" data-bs-toggle="modal" data-bs-target="#modal">Все тарифы</a>
+            </div>
+        </div>
         <a id="trial-training-btn" href="#trial-training-header">Пробная тренировка</a>
     </div>
+
     <div id="subscription-btn-container">
         <a id="subscription-btn" href="https://regina-go.web.app/register">ОПЛАТИТЬ ПОДПИСКУ</a>
     </div>
@@ -77,7 +102,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
     </div>
-    <br />
+    <br/>
     <p class="section-intro">20-ти минутная тренировка с акцентом на ягодицы и осанку</p>
     <div class="video-background">
         <iframe src="https://www.youtube.com/embed/XHeT_AZxMtc" title="YouTube video player" frameborder="0"
@@ -109,7 +134,8 @@
 <section id="platform-about" class="position-relative">
     <div class="decoration"></div>
     <div class="section-header">Платформа GoFit это:</div>
-    <p class="section-intro">200 тренировок разной направленности, теоретическая база, отслеживание прогресса, готовые рецепты</p>
+    <p class="section-intro">200 тренировок разной направленности, теоретическая база, отслеживание прогресса, готовые
+        рецепты</p>
     <ul>
         <li>
             <div class="platform-about-item">Тренировки всех уровней сложности</div>
@@ -214,31 +240,40 @@
                 <img src="assets/results/regina.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560804_photo5267028780495516570.jpg?alt=media&token=ea823b72-883a-485d-9678-6be3e0fcab53" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560804_photo5267028780495516570.jpg?alt=media&token=ea823b72-883a-485d-9678-6be3e0fcab53"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560805_photo5267028780495516569.jpg?alt=media&token=c89df422-898c-48b5-9faf-676ead50b419" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560805_photo5267028780495516569.jpg?alt=media&token=c89df422-898c-48b5-9faf-676ead50b419"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560802_photo5267028780495516573.jpg?alt=media&token=a5da84d8-77ac-49c0-8fd1-6260b2af77a2" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560802_photo5267028780495516573.jpg?alt=media&token=a5da84d8-77ac-49c0-8fd1-6260b2af77a2"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560803_photo5267028780495516572.jpg?alt=media&token=e7648421-83d0-48c7-9488-d619d74229cd" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560803_photo5267028780495516572.jpg?alt=media&token=e7648421-83d0-48c7-9488-d619d74229cd"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560804_photo5267028780495516571.jpg?alt=media&token=f58827b2-8d7f-4032-b9c6-e4c15163f2af" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560804_photo5267028780495516571.jpg?alt=media&token=f58827b2-8d7f-4032-b9c6-e4c15163f2af"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560805_photo5267028780495516567.jpg?alt=media&token=1feb7d53-ea2e-4965-bc33-a3c6e6aed154" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560805_photo5267028780495516567.jpg?alt=media&token=1feb7d53-ea2e-4965-bc33-a3c6e6aed154"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560806_photo5267028780495516566.jpg?alt=media&token=eea20054-056f-46a0-bc39-e062075a6194" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560806_photo5267028780495516566.jpg?alt=media&token=eea20054-056f-46a0-bc39-e062075a6194"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560806_photo5267028780495516568.jpg?alt=media&token=b5abdab2-49f2-4283-8456-27e21c1bb69e" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560806_photo5267028780495516568.jpg?alt=media&token=b5abdab2-49f2-4283-8456-27e21c1bb69e"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560807_photo5267028780495516565.jpg?alt=media&token=3a538a0c-4e31-40c5-a9fd-274b1635d749" class="d-block w-100" alt="...">
+                <img src="https://firebasestorage.googleapis.com/v0/b/regina-go.appspot.com/o/motivation%2F1629745560807_photo5267028780495516565.jpg?alt=media&token=3a538a0c-4e31-40c5-a9fd-274b1635d749"
+                     class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -261,5 +296,38 @@
     <br>
     <br>
 </section>
+
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Тарифы</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>1 месяц - <strong>1990</strong> рублей</li>
+                    <li>2 месяца - <strong>3190</strong> рублей <span class="discount">20% скидка</span></li>
+                    <li>4 месяца - <strong>5590</strong> рублей <span class="discount">25% скидка</span></li>
+                    <li>6 месяцев - <strong>7790</strong> рублей <span class="discount">35% скидка</span></li>
+                    <li>12 месяцев - <strong>13200</strong> рублей <span class="discount">45% скидка</span></li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>

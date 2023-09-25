@@ -137,12 +137,23 @@ ul {
     padding: 0 13px;
 }
 
-#cost-info {
+#rates-info {
+    position: relative;
+}
+
+#one-month-rate {
     border: 1px solid gray;
     padding: 8px;
     border-radius: 10px;
     line-height: 42px;
     z-index: 100;
+}
+
+#other-rates {
+    position: relative;
+    z-index: 100;
+    font-size: 14px;
+    /*text-align: start;*/
 }
 
 .section-header {
@@ -311,7 +322,7 @@ ul {
         font-size: 25px;
     }
 
-    #cost-info {
+    #one-month-rate {
         font-size: 36px;
     }
 
