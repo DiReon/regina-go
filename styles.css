@@ -246,24 +246,37 @@ ul {
 #subscription-target .decoration {
     position: absolute;
     top: 0;
-    right: -150px;
+    right: -50px;
+    opacity: 0.7;
+}
+
+#subscription-target .decoration img {
+    width: 100px;
+    height: 100px;
+}
+
+#decoration2 {
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    opacity: 0.2;
+}
+
+#decoration2 img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    background-color: #b0e1fa;
-    opacity: 0.6;
-    background-image: url("https://thumb.tildacdn.com/tild6362-6363-4262-b736-326530366264/-/format/webp/1Sphere.png");
 }
 
 #platform-about .decoration {
     position: absolute;
     top: -50px;
-    left: -100px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #b0e1fa;
+    left: -40px;
     opacity: 0.4;
+}
+
+#platform-about .decoration img {
+    width: 100px;
+    height: 100px;
 }
 
 #contacts {
@@ -362,6 +375,21 @@ ul {
 
     #subscription-target {
         overflow-x: visible !important;
+    }
+
+    #subscription-target .decoration img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #decoration2 img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #platform-about .decoration img {
+        width: 200px;
+        height: 200px;
     }
 }
 
