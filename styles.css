@@ -20,11 +20,25 @@ ul {
     box-sizing: border-box;
 }
 
+.icon-btn {
+    cursor: pointer;
+}
+
+.whatsapp {
+    color: #038b06;
+}
+
+.whatsapp:hover {
+    color: #39be39;
+}
+
+
 #welcome-container {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     text-align: center;
     z-index: 1;
+    box-shadow: rgba(17, 12, 46, 0.3) 0px 0px 10px 0px;
 }
 
 #welcome-container:before {
@@ -59,12 +73,8 @@ ul {
 }
 
 #image-container img {
-    /*object-fit: none;*/
     height: 100%;
-    /*width: 100%;*/
-    /*object-position: 50% 100%;*/
-    /*display: block;*/
-    /*position: relative;*/
+    position: relative;
 }
 
 #owner-name {
@@ -262,16 +272,13 @@ ul {
 
 
 @media only screen and (min-width: 600px) {
-    body {
-        padding: 0 10%;
+    section {
+        padding: 0 15%;
     }
     #image-container {
         height: 80%;
-    }
-    #image-container img {
-        position: absolute;
-        bottom: 0;
-        right: 150px;
+        padding: 0 10%;
+        right: 0;
     }
 
     #welcome-container {
@@ -359,6 +366,7 @@ ul {
 }
 
 mark {
+    border-radius: 5px;
     background-color: white;
 }
 
