@@ -15,4 +15,15 @@
   opacity: 0.6;
 }
 
+.welcome-page-decoration {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .welcome-page-decoration {
+    display: block;
+    position: absolute;
+  }
+}
+
 /*# sourceMappingURL=welcome-section.css.map */

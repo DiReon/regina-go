@@ -72,18 +72,6 @@ ul {
     text-align: center;
 }
 
-.video-background {
-    margin-top: 20px;
-}
-
-.video-background iframe {
-    display: block;
-    width: 90%;
-    aspect-ratio: 16/9;
-    margin: auto;
-    border-radius: 10px;
-}
-
 .section-intro {
     position: relative;
     padding: 0.5rem 1rem;
