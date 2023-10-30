@@ -18,6 +18,10 @@
             crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./stylesheets/css/welcome-section.css"/>
+    <link rel="stylesheet" href="./stylesheets/css/welcome-container.css"/>
+    <link rel="stylesheet" href="./stylesheets/css/welcome-image.css"/>
+    <link rel="stylesheet" href="./stylesheets/css/trial-training-btn.css"/>
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -52,25 +56,28 @@
 <script src="resize.js"></script>
 <script src="carousel.js"></script>
 
-<section id="welcome-container">
-    <div id="owner-name">РЕГИНА ГОРБАЧЕВА</div>
-    <div id="course-name">Система тренировок</div>
-    <p id="course-description">
-        <mark>для похудения, рельефа, здоровья и просто хорошего самочувствия</mark>
-    </p>
-    <div id="product-summary-and-contacts-container">
-        <ul id="product-content-summary">
-            <li>- плоский живот</li>
-            <li>- подтянутые ягодицы</li>
-            <li>- рельефное тело</li>
-            <li>- йога</li>
-            <li>- здоровый позвоночник</li>
-            <li>- королевская осанка</li>
-            <li>- женское здоровье</li>
-        </ul>
-        <div class="d-flex flex-column align-items-end gap-2 position-relative">
-            <div>По любым вопросам:</div>
-            <div class="d-flex justify-content-between w-100 px-4 z-1">
+<section id="welcome-section">
+    <div id="welcome-container">
+        <div id="owner-name">РЕГИНА ГОРБАЧЕВА</div>
+        <div id="course-name">Система тренировок</div>
+        <p id="course-description">
+            <mark>для похудения, рельефа, здоровья и просто хорошего самочувствия</mark>
+        </p>
+        <div id="product-summary-and-contacts-container">
+            <ul id="product-content-summary">
+                <li>- плоский живот</li>
+                <li>- подтянутые ягодицы</li>
+                <li>- рельефное тело</li>
+                <li>- йога</li>
+                <li>- здоровый позвоночник</li>
+                <li>- королевская осанка</li>
+                <li>- женское здоровье</li>
+            </ul>
+        </div>
+
+        <div id="contacts-container">
+            <div>Связаться:</div>
+            <div class="d-flex justify-content-start w-100 py-2 gap-2">
                 <a type="button" class="icon-btn telegram" href="https://t.me/reginarus" target="_blank">
                     <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
                 </a>
@@ -80,28 +87,21 @@
             </div>
         </div>
     </div>
-    <div id="cost-info-container">
-        <div id="rates-info">
-            <div id="one-month-rate">месяц - 1990 р</div>
-            <div id="other-rates" class="mt-1">
-                <a href="subscription.html" data-bs-toggle="modal" data-bs-target="#modal">Все тарифы</a>
-            </div>
-        </div>
-        <a id="trial-training-btn" href="#trial-training-header">Пробная тренировка</a>
-    </div>
 
-    <div id="subscription-btn-container">
-        <a id="subscription-btn" href="https://regina-go.web.app/register">ОПЛАТИТЬ ПОДПИСКУ</a>
+    <div id="trial-btn-container">
+        <a id="trial-training-btn" class="action-btn" href="#trial-training-header">БЕСПЛАТНАЯ ТРЕНИРОВКА</a>
     </div>
 
     <div id="image-container">
-        <img src="assets/welcome-photo-full-cut.png" alt="Привет!"/>
+        <img src="assets/welcome-photo-full-cut-2.png" alt="Привет!"/>
     </div>
+
 </section>
+<div class="section-intro" style="background: rgb(255, 242, 156); font-size: 14px">Бесплатная отмена подписки в течении 3-х дней</div>
+
 
 <section>
     <div id="trial-training-header" class="section-header">Выполните пробную тренировку</div>
-    <p class="section-intro">Убедитесь, что формат тренировки Вам подходит:</p>
     <p class="section-intro">20-ти минутная тренировка для профилактики сутулости</p>
     <div class="video-background">
         <iframe src="https://www.youtube.com/embed/qyRCNf5FhG0" title="YouTube video player" frameborder="0"
@@ -109,11 +109,35 @@
                 allowfullscreen></iframe>
     </div>
     <br/>
+    <p class="section-intro">ИЛИ</p>
     <p class="section-intro">20-ти минутная тренировка с акцентом на ягодицы и осанку</p>
     <div class="video-background">
         <iframe src="https://www.youtube.com/embed/XHeT_AZxMtc" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
+    </div>
+</section>
+
+<section>
+    <div class="section-header">
+        <div>Тренируйтесь регулярно</div>
+        <div class="section-subheader">за 1100 рублей в месяц*</div>
+    </div>
+    <p class="mx-2">*при оплате подписки на год</p>
+
+    <div class="section-intro">Если Вам понравилось, приобретайте подписку на платформу, чтобы тренироваться регулярно. Более 200 тренировок на любой вкус не дадут Вам заскучать</div>
+    <div class="section-intro" style="background: rgb(255, 242, 156); font-size: 14px">Бесплатная отмена подписки в течении 3-х дней</div>
+    <div id="cost-info-container">
+        <ul>
+            <li>1 месяц - <strong>1990</strong> рублей</li>
+            <li>2 месяца - <strong>3190</strong> рублей <span class="discount">20% скидка</span></li>
+            <li>4 месяца - <strong>5590</strong> рублей <span class="discount">25% скидка</span></li>
+            <li>6 месяцев - <strong>7790</strong> рублей <span class="discount">35% скидка</span></li>
+            <li>12 месяцев - <strong>13200</strong> рублей <span class="discount">45% скидка</span></li>
+        </ul>
+    </div>
+    <div class="text-center mt-3">
+        <a id="subscription-btn" class="action-btn" href="https://regina-go.web.app/register">ПРИОБРЕСТИ ПОДПИСКУ</a>
     </div>
 </section>
 

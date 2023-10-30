@@ -1,0 +1,30 @@
+#trial-btn-container {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.action-btn {
+  position: relative;
+  display: inline-block;
+  background: #FE5155;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 600px) {
+  #trial-training-btn {
+    width: max-content;
+    font-size: 25px;
+  }
+  #trial-btn-container {
+    text-align: start;
+    bottom: 50px;
+  }
+}
+
+/*# sourceMappingURL=trial-training-btn.css.map */
