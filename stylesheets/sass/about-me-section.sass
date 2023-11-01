@@ -1,0 +1,62 @@
+#about-me-section
+  position: relative
+  margin-top: 30px
+
+  &:before
+    content: ' '
+    position: absolute
+    left: 0
+    top: 0
+    display: block
+    width: 100vw
+    height: 100%
+    background: url("../../assets/bg_bggenerator_com.jpg")
+    background-size: auto 100%
+    border-radius: 50px 50px 0 1000px
+    z-index: 0
+    opacity: 0.6
+
+  #about-me-image-container
+    position: relative
+    text-align: center
+    width: 100%
+    height: 350px
+    overflow: hidden
+    z-index: 1
+
+    img
+      object-fit: cover
+      width: 67%
+      height: 105%
+
+
+#about-me-text
+  position: relative
+  z-index: 1
+  padding: 1rem
+
+  .about-me-name
+    font-size: 24px
+    color: rgba(0, 0, 0, 0.6)
+    font-weight: 700
+    margin-bottom: 20px
+
+  .instagram
+    padding: 4px 10px
+    border: 1px solid rgba(0, 0, 0, 0.6)
+    border-radius: 20px
+    display: inline-block
+    color: rgba(0, 0, 0, 0.6)
+    margin-bottom: 16px
+
+  .bullet-points
+    display: flex
+    flex-direction: column
+    gap: 8px
+    color: rgba(0, 0, 0, 0.6)
+
+    li
+      font-size: 14px
+      &:before
+        content: '- '
+
