@@ -16,18 +16,18 @@
     z-index: 0
     opacity: 0.6
 
-  #about-me-image-container
-    position: relative
-    text-align: center
-    width: 100%
-    height: 350px
-    overflow: hidden
-    z-index: 1
+#about-me-image-container
+  position: relative
+  text-align: center
+  width: 100%
+  height: 350px
+  overflow: hidden
+  z-index: 1
 
-    img
-      object-fit: cover
-      width: 67%
-      height: 105%
+  img
+    object-fit: cover
+    width: 67%
+    height: 105%
 
 
 #about-me-text
@@ -60,3 +60,16 @@
       &:before
         content: '- '
 
+@media only screen and (min-width: 600px)
+  #about-me-section
+    display: flex
+    flex-direction: row
+    flex-flow: row-reverse
+    &:before
+      border-radius: 0
+      //border-radius: 50px 50px 50px 50px
+
+  #about-me-image-container
+    height: 600px
+    img
+      width: 100%
