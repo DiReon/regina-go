@@ -1,0 +1,4 @@
+relativeURLs = true
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Regina-Go'
