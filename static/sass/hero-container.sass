@@ -53,7 +53,6 @@
   margin-top: 50px
   padding-left: 10px
   text-align: start
-  max-width: 200px
 
 .social-proof
   display: flex
@@ -69,13 +68,6 @@
     line-height: 15px
     color: rgba(0,0,0,0.6)
 
-
-#product-summary-and-contacts-container
-  display: flex
-  flex-direction: column
-  justify-content: space-between
-  padding: 0 24px
-
 @media only screen and (min-width: 600px)
   #hero-container
     text-align: end
@@ -90,21 +82,18 @@
     text-align: start
 
   #sub-headline
+    width: 400px
     margin-top: 20px
-    font-size: 25px
+    font-size: 28px
     text-align: start
 
     mark
       border-radius: 5px
 
-  #product-summary-and-contacts-container
-    display: flex
-    width: 70%
-    font-size: 20px
-
-  #product-content-summary
-    font-size: 20px
-
-  #one-month-rate
-    font-size: 36px
-
+  .social-proof
+    .marked
+      font-size: 40px
+      color: #fe3364
+    .proof-text
+      width: 300px
+      font-size: 20px
