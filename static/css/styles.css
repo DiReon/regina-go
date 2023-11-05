@@ -151,11 +151,6 @@ ul {
     }
 }
 
-mark {
-    border-radius: 5px;
-    background-color: white;
-}
-
 #contacts-container {
     display: flex;
     position: relative;
