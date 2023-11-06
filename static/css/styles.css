@@ -62,7 +62,7 @@ ul {
 
 #subscription-target .decoration {
     position: absolute;
-    top: 0;
+    top: 60px;
     right: -50px;
     opacity: 0.7;
 }
