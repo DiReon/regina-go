@@ -20,7 +20,7 @@
   display: none;
 }
 
-.trail-period-notice {
+.trial-period-notice {
   padding: 0.5rem;
   text-align: center;
   background: rgb(255, 242, 156);
@@ -32,6 +32,9 @@
   .hero-page-decoration {
     display: block;
     position: absolute;
+  }
+  .trial-period-notice {
+    font-size: 24px;
   }
 }
 
