@@ -23,7 +23,14 @@
     .text
       font-size: 16px
 
+  .before-and-after
+    display: block
+    object-fit: cover
+    width: 100%
+    margin: 16px auto auto
 
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 1200px)
   #benefits-list
-    flex-direction: row
+    display: grid
+    grid-auto-flow: column
+    grid-auto-columns: 1fr
