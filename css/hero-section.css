@@ -1,0 +1,41 @@
+#hero-section {
+  position: relative;
+  overflow: hidden;
+}
+#hero-section:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100vw;
+  height: 1080px;
+  background: url("../img/bg_bggenerator_com.jpg");
+  background-size: auto 100%;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.hero-page-decoration {
+  display: none;
+}
+
+.trial-period-notice {
+  padding: 0.5rem;
+  text-align: center;
+  background: rgb(255, 242, 156);
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 900px) {
+  .hero-page-decoration {
+    display: block;
+    position: absolute;
+  }
+  .trial-period-notice {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=hero-section.css.map */

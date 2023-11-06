@@ -1,0 +1,161 @@
+html, body {
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+}
+
+.icon-btn {
+    cursor: pointer;
+}
+
+.whatsapp {
+    color: #038b06;
+}
+
+.whatsapp:hover {
+    color: #39be39;
+}
+
+.platform-about-item {
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    margin-top: 20px;
+}
+
+.category-item {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.category-item img {
+    width: 40vw;
+    max-width: 350px;
+}
+
+.category-item span {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: contain;
+}
+
+#subscription-target .decoration {
+    position: absolute;
+    top: 0;
+    right: -50px;
+    opacity: 0.7;
+}
+
+#subscription-target .decoration img {
+    width: 100px;
+    height: 100px;
+}
+
+#decoration2 {
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    opacity: 0.2;
+}
+
+#decoration2 img {
+    width: 200px;
+    height: 200px;
+}
+
+#platform-about .decoration {
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    opacity: 0.4;
+}
+
+#platform-about .decoration img {
+    width: 100px;
+    height: 100px;
+}
+
+#contacts {
+    background: rgba(176, 225, 250, 0.4);
+}
+
+@media only screen and (min-width: 600px) {
+    section {
+        padding: 0 15%;
+    }
+
+    #cost-info-container {
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 25px;
+        padding-left: 0;
+    }
+
+    .section-header {
+        font-size: 39px;
+    }
+
+    .section-text, .section-intro {
+        font-size: 25px;
+    }
+
+    .platform-about-item {
+        font-size: 25px;
+    }
+
+    .category-item span {
+        font-size: 25px;
+        line-height: 50px;
+        margin-left: 25px;
+    }
+
+    #subscription-target {
+        overflow-x: visible !important;
+    }
+
+    #subscription-target .decoration img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #decoration2 img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #platform-about .decoration img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+#contacts-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+    z-index: 1;
+    padding-left: 20px;
+}
