@@ -1,0 +1,66 @@
+#who-is-this-subscription-for-section .decoration {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  opacity: 0.7;
+}
+#who-is-this-subscription-for-section .decoration img {
+  width: 100px;
+  height: 100px;
+}
+#who-is-this-subscription-for-section .section-text {
+  position: relative;
+  margin-top: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
+#who-is-this-subscription-for-section .section-text > li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#who-is-this-subscription-for-section .section-text > li img {
+  width: 32px;
+}
+#who-is-this-subscription-for-section .section-text > li span {
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+.sublist {
+  margin-top: -12px;
+}
+.sublist li {
+  margin-left: 44px;
+  font-size: 14px;
+}
+.sublist li:before {
+  content: "-";
+  padding-right: 11px;
+}
+
+.summary {
+  font-size: 16px;
+  padding: 1rem;
+  background: rgb(255, 242, 156);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 600px) {
+  #who-is-this-subscription-for-section {
+    overflow-x: visible !important;
+  }
+  #who-is-this-subscription-for-section .decoration img {
+    width: 200px;
+    height: 200px;
+  }
+  .sublist li {
+    font-size: 18px;
+  }
+  .summary {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=who-is-this-subscription-for-section.css.map */

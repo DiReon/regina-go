@@ -5,6 +5,9 @@
   padding: 10px;
 }
 #benefits-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
@@ -25,11 +28,10 @@
 #benefits-list li .text {
   font-size: 16px;
 }
-#benefits-list .before-and-after {
+#benefits-list .benefit-image {
   display: block;
   object-fit: cover;
   width: 100%;
-  margin: 16px auto auto;
 }
 
 @media only screen and (min-width: 1200px) {

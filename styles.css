@@ -60,18 +60,6 @@ ul {
     object-fit: contain;
 }
 
-#subscription-target .decoration {
-    position: absolute;
-    top: 0;
-    right: -50px;
-    opacity: 0.7;
-}
-
-#subscription-target .decoration img {
-    width: 100px;
-    height: 100px;
-}
-
 #decoration2 {
     position: absolute;
     top: 200px;
@@ -117,10 +105,6 @@ ul {
         font-size: 39px;
     }
 
-    .section-text, .section-intro {
-        font-size: 25px;
-    }
-
     .platform-about-item {
         font-size: 25px;
     }
@@ -129,15 +113,6 @@ ul {
         font-size: 25px;
         line-height: 50px;
         margin-left: 25px;
-    }
-
-    #subscription-target {
-        overflow-x: visible !important;
-    }
-
-    #subscription-target .decoration img {
-        width: 200px;
-        height: 200px;
     }
 
     #decoration2 img {
