@@ -60,14 +60,14 @@ ul {
     object-fit: contain;
 }
 
-#subscription-target .decoration {
+#who-is-this-subscription-for-section .decoration {
     position: absolute;
     top: 60px;
     right: -50px;
     opacity: 0.7;
 }
 
-#subscription-target .decoration img {
+#who-is-this-subscription-for-section .decoration img {
     width: 100px;
     height: 100px;
 }
@@ -131,11 +131,11 @@ ul {
         margin-left: 25px;
     }
 
-    #subscription-target {
+    #who-is-this-subscription-for-section {
         overflow-x: visible !important;
     }
 
-    #subscription-target .decoration img {
+    #who-is-this-subscription-for-section .decoration img {
         width: 200px;
         height: 200px;
     }

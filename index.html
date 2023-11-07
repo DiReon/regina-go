@@ -24,7 +24,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-<link href="./css/styles.css?1699349143" rel="stylesheet">
+<link href="./css/styles.css?1699394857" rel="stylesheet">
 <link rel="stylesheet" href="css/decorations.css"/>
 <link rel="stylesheet" href="css/section-common.css"/>
 <link rel="stylesheet" href="css/hero-section.css"/>
@@ -36,11 +36,12 @@
 <link rel="stylesheet" href="css/benefits-section.css"/>
 <link rel="stylesheet" href="css/about-me-section.css"/>
 <link rel="stylesheet" href="css/social-proof-section.css"/>
+<link rel="stylesheet" href="css/who-is-this-subscription-for-section.css"/>
 <link rel="stylesheet" href="css/footer.css"/>
 
 
 
-<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
 
 
@@ -141,15 +142,17 @@
         <li>
             <div class="header"><img src="img/benefits/thunder.png"><span>Быстрые результаты</span></div>
             <div class="text">Максимально эффективные тренировки, бьющие точно в цель. Похудение, силовой функционал, йога, осанка, женское здоровье - все основано на научном подходе.</div>
-            <img class="before-and-after" src="img/benefits/before-and-after.jpeg" alt="До и после">
+            <img class="benefit-image" src="img/benefits/before-and-after.jpeg" alt="До и после">
         </li>
         <li>
             <div class="header"><img src="img/benefits/helping-hand.png"><span>Простота и доступность</span></div>
             <div class="text">Готовые комплексы, включай и повторяй. Для любых уровней подготовки. Нужен только коврик, а если хочется жаришки - гантели</div>
+            <img class="benefit-image" src="img/benefits/carpet-and-dumbell.png" alt="До и после">
         </li>
         <li>
             <div class="header"><img src="img/benefits/settings.png"><span>Индивидуальный контроль</span></div>
             <div class="text">Отображение активностей в личном календаре, возможность ведения дневника. Персональный еженедельный контроль с моей стороны</div>
+            <img class="benefit-image" src="img/benefits/journal.jpg" alt="До и после">
         </li>
     </ul>
 </section>
@@ -211,7 +214,7 @@
 
 
 
-      <section id="subscription-target" class="position-relative overflow-x-hidden">
+      <section id="who-is-this-subscription-for-section" class="position-relative overflow-x-hidden">
     <div class="section-header">Для кого эта подписка</div>
     <div class="decoration">
         <img src="img/decoration.png" alt="">
@@ -220,21 +223,42 @@
         <img src="img/decoration.png" alt="">
     </div>
     <ul class="section-text">
-        <li>живот никак не уходит</li>
-        <li>хочется похудеть не к лету, а навсегда</li>
-        <li>вроде худая, а рельефа нет</li>
-        <li>часто болит поясница, шея или колени</li>
-        <li>сутулая осанка</li>
-        <li>хочу восстановиться после родов</li>
-        <li>есть недержание мочи при чихании, кашле и при беге. Есть небольшое опущение стенок влагалища</li>
-        <li>болят стопы, растет косточка у большого пальца, отекают ноги</li>
-        <li>сдутые ягодицы, заплывшие ноги, не нравится галифе</li>
-        <li>дряблые руки</li>
-        <li>не хватает энергии для качественной жизни</li>
-        <li>тренировки не приносят результата</li>
-        <li>тренировки быстро надоедают</li>
-        <li>нет удовольствия от движения</li>
+        <li>
+            <img src="img/icons/clock.png" alt="нет времени" style="width: 28px"><span>Работаю из дома, нет времени ездить в фитнес-клуб</span>
+        </li>
+        <li>
+            <img src="img/icons/baby_64.png" alt="в декрете"><span>В декрете, нет возможности куда-то ездить</span>
+        </li>
+        <li>
+            <img src="img/icons/travel_64.png" alt="много путешествую"><span>Много путешествую и не хочу прерывать тренировки</span>
+        </li>
+        <li>
+            <img src="img/icons/spinal-column_64.png" alt="проблемы со здоровьем"><span>Проблемы с самочувствием или здоровьем</span>
+        </li>
+        <ul class="sublist">
+            <li>часто болит поясница, шея или колени</li>
+            <li>сутулая осанка</li>
+            <li>хочу восстановиться после родов</li>
+            <li>есть недержание мочи при чихании, кашле и при беге. Есть небольшое опущение стенок влагалища</li>
+            <li>болят стопы, растет косточка у большого пальца, отекают ноги</li>
+        </ul>
+        <li>
+            <img src="img/icons/sarcastic.png" alt="нет эффекта"><span>Регулярно занимаюсь, но эффекта нет</span>
+        </li>
+        <ul class="sublist">
+            <li>живот никак не уходит</li>
+            <li>хочется похудеть не к лету, а навсегда</li>
+            <li>вроде худая, а рельефа нет</li>
+            <li>сдутые ягодицы, заплывшие ноги, не нравится галифе</li>
+            <li>дряблые руки</li>
+            <li>не хватает энергии для качественной жизни</li>
+            <li>тренировки не приносят результата</li>
+            <li>тренировки быстро надоедают</li>
+            <li>нет удовольствия от движения</li>
+        </ul>
     </ul>
+
+    <div class="summary">Хочется иметь красивое, здоровое тело? Регулярно тренируетесь, но нет эффекта? Моя платформа может стать <strong>идеальным решением</strong></div>
 </section>
 
       <section id="rates-section">
