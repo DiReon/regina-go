@@ -105,14 +105,6 @@ ul {
         padding: 0 15%;
     }
 
-    #cost-info-container {
-        justify-content: center;
-        align-items: start;
-        flex-direction: column;
-        gap: 25px;
-        padding-left: 0;
-    }
-
     .section-header {
         font-size: 39px;
     }
