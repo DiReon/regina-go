@@ -1,16 +1,27 @@
 #cost-info-container {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
   padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 14px;
+}
+#cost-info-container span {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 5px 0;
+}
+#cost-info-container span.left {
+  text-align: left;
+}
+
+.column-2-4 {
+  grid-column: 2/4;
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 600px) {
   #cost-info-container {
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    gap: 25px;
     font-size: 25px;
     line-height: 50px;
   }
