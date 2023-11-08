@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Regina-Go</title>
-    <link>https://example.org/categories/</link>
+    <link>https://www.regina-go.ru/categories/</link>
     <description>Recent content in Categories on Regina-Go</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ru-RU</language>
+    <atom:link href="https://www.regina-go.ru/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

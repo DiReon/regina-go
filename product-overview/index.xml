@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Regina-Go</title>
-    <link>https://www.regina-go.ru/</link>
-    <description>Recent content on Regina-Go</description>
+    <title>Product-overviews on Regina-Go</title>
+    <link>https://www.regina-go.ru/product-overview/</link>
+    <description>Recent content in Product-overviews on Regina-Go</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <atom:link href="https://www.regina-go.ru/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.regina-go.ru/product-overview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>App overview</title>
       <link>https://www.regina-go.ru/product-overview/a/</link>
