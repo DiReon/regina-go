@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{ partial "headers.html" . }}
+</head>
+
+<body>
+
+<div id="all">
+    <div class="section-intro">Тренировочные программы</div>
+    <ul id="list">
+        <li>
+            <div>Здоровье</div>
+            <ul class="programs-list">
+                <li>Экспресс</li>
+                <li>Здоровье</li>
+                <li>Осанка</li>
+                <li>Йога</li>
+                <li>Йога-утро</li>
+                <li>Тазовое дно</li>
+            </ul>
+        </li>
+        <li>
+            <div>Рельеф, плоский живот, ягодицы</div>
+            <ul class="programs-list">
+                <li>Рельеф</li>
+                <li>Сила + Кардио</li>
+                <li>ВИИТ</li>
+                <li>Низкоинтенсивные силовые тренировки</li>
+                <li>Суперпресс</li>
+            </ul>
+        </li>
+        <li>
+            <div>Гибкость</div>
+            <ul class="programs-list">
+                <li>Стретчинг</li>
+                <li>Йога</li>
+                <li>Йога-утро</li>
+            </ul>
+        </li>
+        <li><div>Танцы</div></li>
+    </ul>
+</div>
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>

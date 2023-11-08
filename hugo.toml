@@ -1,4 +1,4 @@
 relativeURLs = true
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://www.regina-go.ru/'
+languageCode = 'ru-RU'
 title = 'Regina-Go'
