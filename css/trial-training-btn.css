@@ -1,6 +1,6 @@
 #cta-btn-container {
   position: absolute;
-  bottom: 30px;
+  bottom: 70px;
   width: 100%;
   text-align: center;
 }
@@ -23,7 +23,7 @@
   }
   #cta-btn-container {
     text-align: start;
-    bottom: 50px;
+    bottom: 70px;
   }
 }
 
