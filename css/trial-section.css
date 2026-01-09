@@ -1,0 +1,33 @@
+#trial-section {
+  position: relative;
+}
+
+.video-background {
+  position: relative;
+  margin-top: 20px;
+  z-index: 100;
+}
+.video-background iframe {
+  display: block;
+  width: 90%;
+  aspect-ratio: 16/9;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.trial-page-decoration {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .trial-page-decoration {
+    display: block;
+    position: absolute;
+  }
+  .trial-page-decoration.decoration-3 {
+    top: 800px;
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=trial-section.css.map */

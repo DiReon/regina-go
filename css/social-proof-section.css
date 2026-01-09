@@ -1,0 +1,35 @@
+#social-proof-examples {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 10px;
+}
+#social-proof-examples li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background: #f0f8ff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#social-proof-examples li .user {
+  display: flex;
+  gap: 1rem;
+}
+#social-proof-examples li .user img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+  #social-proof-examples {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  #social-proof-examples li {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=social-proof-section.css.map */

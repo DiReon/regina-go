@@ -1,0 +1,34 @@
+.decoration-1 {
+  top: 200px;
+  left: -50px;
+  opacity: 1;
+  z-index: 1;
+}
+.decoration-1 img {
+  width: 200px;
+  height: 200px;
+}
+
+.decoration-2 {
+  top: 40px;
+  right: 30px;
+  opacity: 0.8;
+  z-index: 1;
+}
+.decoration-2 img {
+  width: 300px;
+  height: 300px;
+}
+
+.decoration-3 {
+  top: 400px;
+  right: 100px;
+  opacity: 0.5;
+  z-index: 1;
+}
+.decoration-3 img {
+  width: 400px;
+  height: 400px;
+}
+
+/*# sourceMappingURL=decorations.css.map */
