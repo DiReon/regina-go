@@ -42,9 +42,13 @@
 
 .summary {
   font-size: 16px;
-  padding: 1rem;
-  background: rgb(255, 242, 156);
-  color: rgba(0, 0, 0, 0.6);
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, #fff9db, #fff3b8);
+  color: var(--color-text, #2d2d2d);
+  border-radius: var(--radius, 16px);
+  margin: 16px 10px 0;
+  text-align: center;
+  line-height: 1.6;
 }
 
 @media screen and (min-width: 600px) {

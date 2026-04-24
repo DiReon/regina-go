@@ -33,13 +33,22 @@
 
 .go-to-app-btn {
   position: relative;
-  padding: 8px;
-  background: #454545;
-  color: rgba(255, 255, 255, 0.87);
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   z-index: 100;
   font-size: 12px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.go-to-app-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
 }
 
 #headline {
@@ -49,12 +58,13 @@
   margin: 30px 0;
   padding: 0 20px;
   text-align: center;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 36px;
-  line-height: 50px;
+  color: var(--color-text, rgba(0, 0, 0, 0.85));
+  font-size: 34px;
+  line-height: 46px;
   font-family: Roboto, serif;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 800;
+  letter-spacing: -0.5px;
 }
 
 #sub-headline {
@@ -67,10 +77,12 @@
   color: rgba(0, 0, 0, 0.7);
 }
 #sub-headline mark {
-  padding: 2px 0;
-  border-radius: 5px;
-  background-color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.85);
   white-space: pre-wrap;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 #social-proof-container {
