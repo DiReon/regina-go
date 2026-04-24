@@ -1,3 +1,22 @@
+:root {
+    --color-primary: #fe3364;
+    --color-primary-dark: #e02555;
+    --color-text: #2d2d2d;
+    --color-text-muted: rgba(0, 0, 0, 0.6);
+    --color-bg-soft: #f7f2f4;
+    --color-bg-card: #fff;
+    --color-accent-yellow: rgb(255, 242, 156);
+    --color-accent-blue: #f0f8ff;
+    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-card-hover: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --radius: 16px;
+    --transition: 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     height: calc(var(--vh, 1vh) * 100);
 }
@@ -6,6 +25,9 @@ body {
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    color: var(--color-text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }
 
 ul {
@@ -15,8 +37,13 @@ ul {
 }
 
 * {
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Roboto", "Segoe UI", sans-serif;
     box-sizing: border-box;
+}
+
+section:not(#hero-section) {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .icon-btn {
@@ -56,8 +83,9 @@ ul {
 }
 
 .carousel-item img {
-    height: 300px;
+    height: 400px;
     object-fit: contain;
+    border-radius: var(--radius);
 }
 
 #who-is-this-subscription-for-section .decoration {
@@ -98,6 +126,22 @@ ul {
 
 #contacts {
     background: rgba(176, 225, 250, 0.4);
+}
+
+#benefits-section {
+    background: var(--color-bg-soft);
+}
+
+#who-is-this-subscription-for-section {
+    background: var(--color-bg-soft);
+}
+
+#results {
+    background: #fff;
+}
+
+#rates-section {
+    background: var(--color-bg-soft);
 }
 
 @media only screen and (min-width: 600px) {

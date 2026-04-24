@@ -4,14 +4,22 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-size: 14px;
+  border-radius: var(--radius, 16px);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow-card, 0 4px 20px rgba(0,0,0,0.08));
 }
 #cost-info-container span {
   text-align: center;
-  border-top: 1px solid gray;
-  padding: 5px 0;
+  border-top: 1px solid #eee;
+  padding: 10px 4px;
 }
 #cost-info-container span.left {
   text-align: left;
+}
+#cost-info-container span.fw-bold {
+  background: var(--color-bg-soft, #f7f2f4);
+  color: var(--color-text, #2d2d2d);
 }
 
 .column-2-4 {

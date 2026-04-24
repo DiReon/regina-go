@@ -2,23 +2,41 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   padding: 10px;
 }
 #social-proof-examples li {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-  background: #f0f8ff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1.5rem;
+  margin-bottom: 0;
+  border-radius: var(--radius, 16px);
+  background: #fff;
+  box-shadow: var(--shadow-card, 0 4px 20px rgba(0,0,0,0.08));
+  border-left: 4px solid var(--color-primary, #fe3364);
+  transition: transform var(--transition, 0.3s ease), box-shadow var(--transition, 0.3s ease);
+}
+#social-proof-examples li:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-card-hover, 0 8px 32px rgba(0,0,0,0.12));
 }
 #social-proof-examples li .user {
   display: flex;
+  align-items: center;
   gap: 1rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: var(--color-text, #2d2d2d);
 }
 #social-proof-examples li .user img {
-  width: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
+  object-fit: cover;
+}
+#social-proof-examples li .text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-text-muted, rgba(0,0,0,0.6));
+  font-style: italic;
 }
 
 @media screen and (min-width: 1200px) {

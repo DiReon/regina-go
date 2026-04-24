@@ -1,6 +1,20 @@
 footer {
-  margin-top: 30px;
-  background: aliceblue;
+  margin-top: 0;
+  padding: 40px 20px 30px;
+  background: #2d2d2d;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+footer .d-flex {
+  gap: 16px;
+}
+
+footer .btn {
+  border-radius: 50px;
+  padding: 10px 24px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
 }
 
 /*# sourceMappingURL=footer.css.map */
